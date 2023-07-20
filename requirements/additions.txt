@@ -1,0 +1,7 @@
+
+git+https://github.com/martn/django-jsoneditor@108bc86b134bc926fa584064a132b5be1640cb5c#egg=django-jsoneditor
+git+https://github.com/asians-cloud/django-keycloak@e6fb900#egg=django-keycloak
+git+https://github.com/asians-cloud/caesar-user@8bbbe47#egg=caesar-user
+git+https://github.com/asians-cloud/django-ajax-selects@1c4c7f8#egg=django-ajax-selects
+git+https://github.com/asians-cloud/gaius-common.git@main#egg=gaius-common
+git+https://github.com/rq0net/django_log_to_telegram@master#egg=django_log_to_telegram
