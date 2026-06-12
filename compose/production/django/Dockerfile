@@ -1,1 +1,7 @@
-FROM asians.azurecr.io/gaius/p3d3-slim:production
+# Public python slim base — replaces the retired private p3d3-slim base image.
+# django_log_to_discord is consumed as a git-sourced library by the gaius
+# services; this image carries no app build steps (matching the previous stub).
+ARG PYTHON_VERSION=3.12
+ARG DEBIAN_SUITE=bookworm
+
+FROM python:${PYTHON_VERSION}-slim-${DEBIAN_SUITE}
